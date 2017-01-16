@@ -1,0 +1,20 @@
+{
+  "name": "react-weather",
+  "version": "0.1.0",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11",
+    "webpack": "^1.14.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.0"
+  }
+}
