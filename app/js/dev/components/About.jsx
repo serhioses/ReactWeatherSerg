@@ -3,7 +3,10 @@ import React from 'react';
 export default class About extends React.Component {
     render() {
         return (
-            <h3>About component</h3>
+            <div>
+                <h3>About</h3>
+                <p>Welcome to About page</p>
+            </div>
         );
     }
 }
