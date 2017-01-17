@@ -9,8 +9,11 @@ export default class Main extends React.Component {
         return (
             <div>
                 <Nav/>
-                <h2>Main component</h2>
-                {this.props.children}
+                <div className="row">
+                    <div className="columns medium-6 large-4 small-centered">
+                        {this.props.children}
+                    </div>
+                </div>
             </div>
         );
     }
