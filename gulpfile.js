@@ -8,7 +8,6 @@ gulp.task('webpack', function () {
         .pipe(webpack(require('./webpack.config.js')))
         .pipe(gulp.dest(path + '/js/dist'));
 });
-console.log(1);
 
 gulp.task('watch', ['webpack'], function () {
     gulp.watch(path + '/js/dev/**/*.*', ['webpack']);
