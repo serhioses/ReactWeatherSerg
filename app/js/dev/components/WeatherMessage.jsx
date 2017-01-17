@@ -6,7 +6,7 @@ export default class WeatherMessage extends React.Component {
     }
     render() {
         return (
-            <p>It's {this.props.temp} in {this.props.location}</p>
+            <h3 className="text-center">It's {this.props.temp} in {this.props.location}</h3>
         );
     }
 }
