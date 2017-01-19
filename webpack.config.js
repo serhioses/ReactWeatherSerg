@@ -33,7 +33,8 @@ module.exports = {
             ErrorModal: path + '/components/ErrorModal.jsx',
             openWeatherMap: path + '/api/openWeatherMap.jsx',
             About: path + '/components/About.jsx',
-            Examples: path + '/components/Examples.jsx'
+            Examples: path + '/components/Examples.jsx',
+            applicationStyles: 'app/css/style.css'
         }
     },
     module: {

@@ -10,7 +10,7 @@ gulp.task('webpack', function () {
 });
 
 gulp.task('watch', ['webpack'], function () {
-    gulp.watch(path + '/js/dev/**/*.*', ['webpack']);
+    gulp.watch([path + '/js/dev/**/*.*', 'app/css/*.css'], ['webpack']);
 });
 
 gulp.task('default', ['watch']);
